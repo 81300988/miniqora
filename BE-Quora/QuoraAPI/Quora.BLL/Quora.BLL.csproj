@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Quora.DAL\Quora.DAL.csproj" />
+    <ProjectReference Include="..\Quora.Model\Quora.Model.csproj" />
+  </ItemGroup>
+
+</Project>

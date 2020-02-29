@@ -1,0 +1,39 @@
+// User reducer types
+export const SET_AUTHENTICATED = 'SET_AUTHENTICATED';
+export const SET_UNAUTHENTICATED = 'SET_UNAUTHENTICATED';
+export const SET_USER = 'SET_USER';
+export const LOADING_USER = 'LOADING_USER';
+export const MARK_NOTIFICATIONS_READ = 'MARK_NOTIFICATIONS_READ';
+// UI reducer types
+export const SET_ERRORS = 'SET_ERRORS';
+export const LOADING_UI = 'LOADING_UI';
+export const CLEAR_ERRORS = 'CLEAR_ERRORS';
+export const LOADING_DATA = 'LOADING_DATA';
+export const STOP_LOADING_UI = 'STOP_LOADING_UI';
+// Data reducer types
+export const LIKE_SCREAM = 'LIKE_SCREAM';
+export const UNLIKE_SCREAM = 'UNLIKE_SCREAM';
+export const LIKE_SCREAM_CAT = 'LIKE_SCREAM_CAT';
+export const UNLIKE_SCREAM_CAT = 'UNLIKE_SCREAM_CAT';
+export const LIKE_SCREAM_DETAIL = 'LIKE_SCREAM_DETAIL';
+export const UNLIKE_SCREAM_DETAIL = 'UNLIKE_SCREAM_DETAIL';
+export const DELETE_SCREAM = 'DELETE_SCREAM';
+export const POST_SCREAM = 'POST_SCREAM';
+export const SUBMIT_COMMENT = 'SUBMIT_COMMENT';
+export const ADD_COMMENT_FOR_ANSWER = 'ADD_COMMENT_FOR_ANSWER';
+// Category reducer types
+export const SET_QUESTIONS = 'SET_QUESTIONS';
+export const SET_QUESTION = 'SET_QUESTION';
+export const LIKE_QUESTION = 'LIKE_QUESTION';
+export const UNLIKE_QUESTION = 'UNLIKE_QUESTION';
+
+export const DELETE_QUESTION = 'DELETE_QUESTION';
+export const POST_QUESTION = 'POST_QUESTION';
+
+export const SET_CATEGORIES = 'SET_CATEGORIES';
+
+export const SET_CATEGORY_QUESTIONS = 'SET_CATEGORY_QUESTIONS';
+export const RESET_HOME = 'RESET_HOME';
+export const RESET_CATEGORY_PAGE = 'RESET_CATEGORY_PAGE';
+
+export const USE_CACHE = 'true';
